@@ -1,0 +1,11 @@
+@import "materialize";
+
+// This saves us from typing <body class="grey lighten-2"> on every page
+body {
+  @extend .grey;
+  @extend .lighten-2;
+}
+
+.heading {
+  font-weight: bold;
+}
