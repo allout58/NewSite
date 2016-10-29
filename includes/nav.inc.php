@@ -4,7 +4,7 @@ function isActive($name) {
 }
 ?>
 <nav>
-    <div class="nav-wrapper indigo darken-1">
+    <div class="nav-wrapper theme-bg">
         <a href="/index.php" class="brand-logo"><!--<img src="/favicon_transparent.ico" class="responsive-img"/>--> NewSite</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li class="waves-effect waves-light<?php if(isActive("/index.php")) echo " active";?>"><a href="/index.php">Home</a></li>

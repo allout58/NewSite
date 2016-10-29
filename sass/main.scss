@@ -6,6 +6,36 @@ body {
   @extend .lighten-2;
 }
 
+.theme-bg {
+  @extend .indigo;
+  @extend .darken-1;
+}
+
 .heading {
   font-weight: bold;
+}
+
+nav .brand-logo {
+  padding-left: 5px;
+}
+
+.home_start {
+  margin-top: -34px;
+  background-size: cover;
+  background: url("/images/homepage.jpg") no-repeat center;
+  height: 94vh;
+  .container {
+    color: white;
+    position: relative;
+    top: 26vh;
+    //left: 8vw;
+    @extend .center-align
+  }
+  .copyright {
+    font-size: small;
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 3px;
+  }
 }
