@@ -2540,7 +2540,7 @@ nav ul a span.badge {
 .right-align {
   text-align: right; }
 
-.center, .center-align, .home_start .container {
+.center, .center-align, .home_start .container, .images-text {
   text-align: center; }
 
 .left {
@@ -6358,5 +6358,36 @@ body {
 
 main {
   flex: 1 0 auto; }
+
+.images-text > * {
+  clear: both;
+  padding-top: 50px; }
+  .images-text > * .image {
+    position: relative;
+    padding: 0;
+    margin: 0; }
+    .images-text > * .image, .images-text > * .image img {
+      width: 20vw; }
+    .images-text > * .image .copyright {
+      font-size: small;
+      color: white;
+      position: absolute;
+      right: 5px;
+      bottom: 4px;
+      margin: 0; }
+  .images-text > * .content {
+    width: 45vw; }
+  .images-text > *:nth-child(odd) .content {
+    float: right;
+    padding-left: 14vw;
+    padding-right: 6vw; }
+  .images-text > *:nth-child(odd) .image {
+    float: left; }
+  .images-text > *:nth-child(even) .content {
+    float: left;
+    padding-right: 14vw;
+    padding-left: 6vw; }
+  .images-text > *:nth-child(even) .image {
+    float: right; }
 
 /*# sourceMappingURL=main.css.map */

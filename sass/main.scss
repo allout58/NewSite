@@ -44,6 +44,7 @@ nav .brand-logo {
   @extend .theme-bg;
   @extend .white-text;
 }
+
 .collapsible-body {
   @extend .white;
   padding: 15px;
@@ -59,6 +60,7 @@ body {
 main {
   flex: 1 0 auto;
 }
+
 //End Sticky Footer
 
 footer {
@@ -66,5 +68,54 @@ footer {
   .footer-copyright {
     @extend .theme-bg;
     @extend .darken-2;
+  }
+}
+
+.images-text {
+  @extend .center-align;
+  & > * {
+    clear: both;
+    padding-top: 50px;
+    .image {
+      position: relative;
+      padding: 0;
+      margin: 0;
+      &, img {
+        width: 20vw;
+      }
+      .copyright {
+        font-size: small;
+        color: white;
+        position: absolute;
+        right: 5px;
+        bottom: 4px;
+        margin: 0;
+      }
+    }
+    .content {
+      width: 45vw;
+    }
+    &:nth-child(odd) {
+      .content {
+        float: right;
+        padding-left: 14vw;
+        padding-right: 6vw;
+      }
+      .image {
+        float: left;
+        //margin-left: 6vw;
+      }
+    }
+    &:nth-child(even) {
+      .content {
+        float: left;
+        padding-right: 14vw;
+        padding-left: 6vw;
+      }
+      .image {
+        float: right;
+        //margin-right: 6vw;
+      }
+    }
   }
 }

@@ -9,7 +9,8 @@
 <?php require_once "includes/nav.inc"; ?>
 <main>
     <div class="container">
-        <h1>Hello world!</h1>
+        <h1>About Us</h1>
+        <p></p>
     </div>
 </main>
 <?php

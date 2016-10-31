@@ -19,30 +19,36 @@
             echo "<p>Thank you! Your inquiry has been recieved.</p>";
         }
         ?>
-        <form method="post">
-            <div class="row">
-                <div class="input-field col s6">
-                    <input id="name" name="name" type="text" class="validate" required>
-                    <label for="name">Name</label>
+        <div class="card">
+
+            <form method="post">
+
+                <div class="card-content">
+                    <span class="card-title">Send an Inquiry</span>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="name" name="name" type="text" class="validate" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="email" name="email" type="email" class="validate" required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <textarea id="inquiry" name="inquiry" class="materialize-textarea"></textarea>
+                            <label for="inquiry">Inquiry</label>
+                        </div>
+                    </div>
                 </div>
-                <div class="input-field col s6">
-                    <input id="email" name="email" type="email" class="validate" required>
-                    <label for="email">Email</label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="input-field col s6">
-                    <textarea id="inquiry" name="inquiry" class="materialize-textarea"></textarea>
-                    <label for="inquiry">Inquiry</label>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12">
-                    <button type="submit" class="waves-effect waves-light btn"><i class="material-icons right">send</i>Submit
+                <div class="card-action">
+                    <button type="submit" class="waves-effect waves-light btn"><i
+                            class="material-icons right">send</i>Submit
                     </button>
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
 </main>
 <?php
