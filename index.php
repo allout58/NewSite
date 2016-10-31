@@ -33,7 +33,7 @@
     <div class="container images-text" id="main">
         <div id="custom" class="section">
             <div class="image">
-                <img src="images/design.jpg"/>
+                <img src="images/design.small.jpg"/>
                 <span class="copyright">Photo by <a
                         href="https://unsplash.com/@joannakosinska">Joanna Kosinka</a></span>
             </div>
@@ -46,7 +46,7 @@
         </div>
         <div id="personal" class="section">
             <div class="image">
-                <img src="images/touching_screen.jpg"/>
+                <img src="images/touching_screen.small.jpg"/>
                 <span class="copyright">Photo by <a
                         href="https://unsplash.com/@timothymuza">timothy muza</a></span>
             </div>
@@ -60,7 +60,7 @@
         </div>
         <div id="smallbiz" class="section">
             <div class="image">
-                <img src="images/business-open.jpg"/>
+                <img src="images/business-open.small.jpg"/>
                 <span class="copyright">Photo by <a
                         href="https://unsplash.com/@mikepetrucci">Mike Petrucci</a></span>
             </div>
