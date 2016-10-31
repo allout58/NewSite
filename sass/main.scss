@@ -39,3 +39,32 @@ nav .brand-logo {
     bottom: 3px;
   }
 }
+
+.collapsible-header {
+  @extend .theme-bg;
+  @extend .white-text;
+}
+.collapsible-body {
+  @extend .white;
+  padding: 15px;
+}
+
+// Sticky Footer, doesn't necessarily work in IE due to little flexbox support
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+//End Sticky Footer
+
+footer {
+  @extend .theme-bg;
+  .footer-copyright {
+    @extend .theme-bg;
+    @extend .darken-2;
+  }
+}
