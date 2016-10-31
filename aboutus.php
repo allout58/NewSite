@@ -6,7 +6,7 @@
 </head>
 
 <body>
-<?php require_once "includes/nav.inc.php"; ?>
+<?php require_once "includes/nav.inc"; ?>
 <main>
     <div class="container">
         <h1>Hello world!</h1>
