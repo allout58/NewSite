@@ -44,7 +44,7 @@
             <li>
                 <div class="collapsible-header">What guarantees can you provide for site uptime?</div>
                 <div class="collapsible-body">
-                    <span>Unfortunately, we can provide little guarantees for uptime, as your site will be hosted on a shared server. This reduces costs and allows us to more easily update and manage your site.</span><br>
+                    <span>Unfortunately, we can provide little guarantees for uptime, as your site will be hosted on a shared server. This reduces costs and allows us to more easily update and manage your site, but increases the possibility of problems.</span><br>
                     <span>If you are very concerned about keeping your site online, we can still design your site and assist you in setting up your site with a different service.</span>
                 </div>
 
