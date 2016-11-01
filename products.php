@@ -12,7 +12,7 @@
         <h1>Products and Services</h1>
         <h4>Package Deals</h4>
         <div class="row">
-            <div class="col s5 offset-s1">
+            <div class="col l5 offset-l1 s10 offset-s1">
                 <div class="card">
                     <div class="card-content">
                         <span class="card-title">Full Package</span>
@@ -25,12 +25,12 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="card-action">
+                    <!-- <div class="card-action">
                         <a href="/purchase.php?type=package&package=1">Buy Now</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
-            <div class="col s5">
+            <div class="col l5 s10 offset-s1">
                 <div class="card">
                     <div class="card-content">
                         <span class="card-title">Small Package</span>
@@ -41,9 +41,9 @@
                                     class="deal">deal</span></li>
                         </ul>
                     </div>
-                    <div class="card-action">
+                    <!-- <div class="card-action">
                         <a href="/purchase.php?type=package&package=2">Buy Now</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
             <div class="col s10 offset-s1 card" id="reg">
                 <div class="card-content">
                     <span class="card-title">Domain Registration</span>
-                    <span class="price">around $2 per mont</span>
+                    <span class="price">around $2 per month</span>
                     <p>We handle registering and setting up your domain for you. The price for this depends on what
                         domain you would like to purchase, but most sites will be around $1-$2 per month</p>
                 </div>
