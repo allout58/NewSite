@@ -34,7 +34,7 @@
 .materialize-red-text.text-lighten-1 {
   color: #ea454b !important; }
 
-.materialize-red.darken-1, .materialize-red.theme-bg, .materialize-red.collapsible-header, footer.materialize-red, footer .materialize-red.footer-copyright {
+.materialize-red.darken-1, .materialize-red.theme-bg, .materialize-red.collapsible-header, footer.materialize-red, footer .materialize-red.footer-copyright, .materialize-red.deal {
   background-color: #d0181e !important; }
 
 .materialize-red-text.text-darken-1 {
@@ -58,85 +58,85 @@
 .materialize-red-text.text-darken-4 {
   color: #8b1014 !important; }
 
-.red {
+.red, .deal {
   background-color: #F44336 !important; }
 
 .red-text {
   color: #F44336 !important; }
 
-.red.lighten-5 {
+.red.lighten-5, .lighten-5.deal {
   background-color: #FFEBEE !important; }
 
 .red-text.text-lighten-5 {
   color: #FFEBEE !important; }
 
-.red.lighten-4 {
+.red.lighten-4, .lighten-4.deal {
   background-color: #FFCDD2 !important; }
 
 .red-text.text-lighten-4 {
   color: #FFCDD2 !important; }
 
-.red.lighten-3 {
+.red.lighten-3, .lighten-3.deal {
   background-color: #EF9A9A !important; }
 
 .red-text.text-lighten-3 {
   color: #EF9A9A !important; }
 
-.red.lighten-2, body.red {
+.red.lighten-2, body.red, body.deal, .lighten-2.deal {
   background-color: #E57373 !important; }
 
 .red-text.text-lighten-2 {
   color: #E57373 !important; }
 
-.red.lighten-1 {
+.red.lighten-1, .lighten-1.deal {
   background-color: #EF5350 !important; }
 
 .red-text.text-lighten-1 {
   color: #EF5350 !important; }
 
-.red.darken-1, .red.theme-bg, .red.collapsible-header, footer.red, footer .red.footer-copyright {
+.red.darken-1, .red.theme-bg, .red.collapsible-header, footer.red, footer .red.footer-copyright, footer .footer-copyright.deal, .deal {
   background-color: #E53935 !important; }
 
 .red-text.text-darken-1 {
   color: #E53935 !important; }
 
-.red.darken-2, footer .red.footer-copyright {
+.red.darken-2, footer .red.footer-copyright, footer .footer-copyright.deal, .darken-2.deal {
   background-color: #D32F2F !important; }
 
 .red-text.text-darken-2 {
   color: #D32F2F !important; }
 
-.red.darken-3 {
+.red.darken-3, .darken-3.deal {
   background-color: #C62828 !important; }
 
 .red-text.text-darken-3 {
   color: #C62828 !important; }
 
-.red.darken-4 {
+.red.darken-4, .darken-4.deal {
   background-color: #B71C1C !important; }
 
 .red-text.text-darken-4 {
   color: #B71C1C !important; }
 
-.red.accent-1 {
+.red.accent-1, .accent-1.deal {
   background-color: #FF8A80 !important; }
 
 .red-text.text-accent-1 {
   color: #FF8A80 !important; }
 
-.red.accent-2 {
+.red.accent-2, .accent-2.deal {
   background-color: #FF5252 !important; }
 
 .red-text.text-accent-2 {
   color: #FF5252 !important; }
 
-.red.accent-3 {
+.red.accent-3, .accent-3.deal {
   background-color: #FF1744 !important; }
 
 .red-text.text-accent-3 {
   color: #FF1744 !important; }
 
-.red.accent-4 {
+.red.accent-4, .accent-4.deal {
   background-color: #D50000 !important; }
 
 .red-text.text-accent-4 {
@@ -178,7 +178,7 @@
 .pink-text.text-lighten-1 {
   color: #ec407a !important; }
 
-.pink.darken-1, .pink.theme-bg, .pink.collapsible-header, footer.pink, footer .pink.footer-copyright {
+.pink.darken-1, .pink.theme-bg, .pink.collapsible-header, footer.pink, footer .pink.footer-copyright, .pink.deal {
   background-color: #d81b60 !important; }
 
 .pink-text.text-darken-1 {
@@ -262,7 +262,7 @@
 .purple-text.text-lighten-1 {
   color: #ab47bc !important; }
 
-.purple.darken-1, .purple.theme-bg, .purple.collapsible-header, footer.purple, footer .purple.footer-copyright {
+.purple.darken-1, .purple.theme-bg, .purple.collapsible-header, footer.purple, footer .purple.footer-copyright, .purple.deal {
   background-color: #8e24aa !important; }
 
 .purple-text.text-darken-1 {
@@ -346,7 +346,7 @@
 .deep-purple-text.text-lighten-1 {
   color: #7e57c2 !important; }
 
-.deep-purple.darken-1, .deep-purple.theme-bg, .deep-purple.collapsible-header, footer.deep-purple, footer .deep-purple.footer-copyright {
+.deep-purple.darken-1, .deep-purple.theme-bg, .deep-purple.collapsible-header, footer.deep-purple, footer .deep-purple.footer-copyright, .deep-purple.deal {
   background-color: #5e35b1 !important; }
 
 .deep-purple-text.text-darken-1 {
@@ -430,7 +430,7 @@
 .indigo-text.text-lighten-1 {
   color: #5c6bc0 !important; }
 
-.indigo.darken-1, .theme-bg, .collapsible-header, footer, footer .footer-copyright {
+.indigo.darken-1, .theme-bg, .collapsible-header, footer, footer .footer-copyright, .indigo.deal, footer.deal {
   background-color: #3949ab !important; }
 
 .indigo-text.text-darken-1 {
@@ -514,7 +514,7 @@
 .blue-text.text-lighten-1 {
   color: #42A5F5 !important; }
 
-.blue.darken-1, .blue.theme-bg, .blue.collapsible-header, footer.blue, footer .blue.footer-copyright {
+.blue.darken-1, .blue.theme-bg, .blue.collapsible-header, footer.blue, footer .blue.footer-copyright, .blue.deal {
   background-color: #1E88E5 !important; }
 
 .blue-text.text-darken-1 {
@@ -598,7 +598,7 @@
 .light-blue-text.text-lighten-1 {
   color: #29b6f6 !important; }
 
-.light-blue.darken-1, .light-blue.theme-bg, .light-blue.collapsible-header, footer.light-blue, footer .light-blue.footer-copyright {
+.light-blue.darken-1, .light-blue.theme-bg, .light-blue.collapsible-header, footer.light-blue, footer .light-blue.footer-copyright, .light-blue.deal {
   background-color: #039be5 !important; }
 
 .light-blue-text.text-darken-1 {
@@ -682,7 +682,7 @@
 .cyan-text.text-lighten-1 {
   color: #26c6da !important; }
 
-.cyan.darken-1, .cyan.theme-bg, .cyan.collapsible-header, footer.cyan, footer .cyan.footer-copyright {
+.cyan.darken-1, .cyan.theme-bg, .cyan.collapsible-header, footer.cyan, footer .cyan.footer-copyright, .cyan.deal {
   background-color: #00acc1 !important; }
 
 .cyan-text.text-darken-1 {
@@ -766,7 +766,7 @@
 .teal-text.text-lighten-1 {
   color: #26a69a !important; }
 
-.teal.darken-1, .teal.theme-bg, .teal.collapsible-header, footer.teal, footer .teal.footer-copyright {
+.teal.darken-1, .teal.theme-bg, .teal.collapsible-header, footer.teal, footer .teal.footer-copyright, .teal.deal {
   background-color: #00897b !important; }
 
 .teal-text.text-darken-1 {
@@ -850,7 +850,7 @@
 .green-text.text-lighten-1 {
   color: #66BB6A !important; }
 
-.green.darken-1, .green.theme-bg, .green.collapsible-header, footer.green, footer .green.footer-copyright {
+.green.darken-1, .green.theme-bg, .green.collapsible-header, footer.green, footer .green.footer-copyright, .green.deal {
   background-color: #43A047 !important; }
 
 .green-text.text-darken-1 {
@@ -934,7 +934,7 @@
 .light-green-text.text-lighten-1 {
   color: #9ccc65 !important; }
 
-.light-green.darken-1, .light-green.theme-bg, .light-green.collapsible-header, footer.light-green, footer .light-green.footer-copyright {
+.light-green.darken-1, .light-green.theme-bg, .light-green.collapsible-header, footer.light-green, footer .light-green.footer-copyright, .light-green.deal {
   background-color: #7cb342 !important; }
 
 .light-green-text.text-darken-1 {
@@ -1018,7 +1018,7 @@
 .lime-text.text-lighten-1 {
   color: #d4e157 !important; }
 
-.lime.darken-1, .lime.theme-bg, .lime.collapsible-header, footer.lime, footer .lime.footer-copyright {
+.lime.darken-1, .lime.theme-bg, .lime.collapsible-header, footer.lime, footer .lime.footer-copyright, .lime.deal {
   background-color: #c0ca33 !important; }
 
 .lime-text.text-darken-1 {
@@ -1102,7 +1102,7 @@
 .yellow-text.text-lighten-1 {
   color: #ffee58 !important; }
 
-.yellow.darken-1, .yellow.theme-bg, .yellow.collapsible-header, footer.yellow, footer .yellow.footer-copyright {
+.yellow.darken-1, .yellow.theme-bg, .yellow.collapsible-header, footer.yellow, footer .yellow.footer-copyright, .yellow.deal {
   background-color: #fdd835 !important; }
 
 .yellow-text.text-darken-1 {
@@ -1186,7 +1186,7 @@
 .amber-text.text-lighten-1 {
   color: #ffca28 !important; }
 
-.amber.darken-1, .amber.theme-bg, .amber.collapsible-header, footer.amber, footer .amber.footer-copyright {
+.amber.darken-1, .amber.theme-bg, .amber.collapsible-header, footer.amber, footer .amber.footer-copyright, .amber.deal {
   background-color: #ffb300 !important; }
 
 .amber-text.text-darken-1 {
@@ -1270,7 +1270,7 @@
 .orange-text.text-lighten-1 {
   color: #ffa726 !important; }
 
-.orange.darken-1, .orange.theme-bg, .orange.collapsible-header, footer.orange, footer .orange.footer-copyright {
+.orange.darken-1, .orange.theme-bg, .orange.collapsible-header, footer.orange, footer .orange.footer-copyright, .orange.deal {
   background-color: #fb8c00 !important; }
 
 .orange-text.text-darken-1 {
@@ -1354,7 +1354,7 @@
 .deep-orange-text.text-lighten-1 {
   color: #ff7043 !important; }
 
-.deep-orange.darken-1, .deep-orange.theme-bg, .deep-orange.collapsible-header, footer.deep-orange, footer .deep-orange.footer-copyright {
+.deep-orange.darken-1, .deep-orange.theme-bg, .deep-orange.collapsible-header, footer.deep-orange, footer .deep-orange.footer-copyright, .deep-orange.deal {
   background-color: #f4511e !important; }
 
 .deep-orange-text.text-darken-1 {
@@ -1438,7 +1438,7 @@
 .brown-text.text-lighten-1 {
   color: #8d6e63 !important; }
 
-.brown.darken-1, .brown.theme-bg, .brown.collapsible-header, footer.brown, footer .brown.footer-copyright {
+.brown.darken-1, .brown.theme-bg, .brown.collapsible-header, footer.brown, footer .brown.footer-copyright, .brown.deal {
   background-color: #6d4c41 !important; }
 
 .brown-text.text-darken-1 {
@@ -1498,7 +1498,7 @@
 .blue-grey-text.text-lighten-1 {
   color: #78909c !important; }
 
-.blue-grey.darken-1, .blue-grey.theme-bg, .blue-grey.collapsible-header, footer.blue-grey, footer .blue-grey.footer-copyright {
+.blue-grey.darken-1, .blue-grey.theme-bg, .blue-grey.collapsible-header, footer.blue-grey, footer .blue-grey.footer-copyright, .blue-grey.deal {
   background-color: #546e7a !important; }
 
 .blue-grey-text.text-darken-1 {
@@ -1558,7 +1558,7 @@
 .grey-text.text-lighten-1 {
   color: #bdbdbd !important; }
 
-.grey.darken-1, body.darken-1, body.theme-bg, body.collapsible-header, footer body.footer-copyright, .grey.theme-bg, .grey.collapsible-header, footer.grey, footer .grey.footer-copyright {
+.grey.darken-1, body.darken-1, body.theme-bg, body.collapsible-header, footer body.footer-copyright, body.deal, .grey.theme-bg, .grey.collapsible-header, footer.grey, footer .grey.footer-copyright, .grey.deal {
   background-color: #757575 !important; }
 
 .grey-text.text-darken-1 {
@@ -1591,7 +1591,7 @@
 .white, .collapsible-body {
   background-color: #FFFFFF !important; }
 
-.white-text, .collapsible-header {
+.white-text, .collapsible-header, .deal {
   color: #FFFFFF !important; }
 
 .transparent {
@@ -6389,5 +6389,11 @@ main {
     padding-left: 6vw; }
   .images-text > *:nth-child(even) .image {
     float: right; }
+
+.deal {
+  text-transform: uppercase;
+  padding: 3px;
+  border-radius: 3px;
+  border: 1px solid black; }
 
 /*# sourceMappingURL=main.css.map */

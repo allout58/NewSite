@@ -119,3 +119,13 @@ footer {
     }
   }
 }
+
+.deal {
+  text-transform: uppercase;
+  padding: 3px;
+  border-radius: 3px;
+  border: 1px solid black;
+  @extend .red;
+  @extend .darken-1;
+  @extend .white-text;
+}

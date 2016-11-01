@@ -16,7 +16,7 @@
         <p>For other inquiries, please use the form below.</p>
         <?php
         if (isset($_POST['email'])) {
-            echo "<p>Thank you! Your inquiry has been recieved.</p>";
+            echo "<h3>Thank you! Your inquiry has been recieved.</h3>";
         }
         ?>
         <div class="card">
