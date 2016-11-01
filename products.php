@@ -52,25 +52,38 @@
             <div class="col s10 offset-s1 card" id="design">
                 <div class="card-content">
                     <span class="card-title">Website Design</span>
-                    <p>We design a website for your company.</p>
+                    <span class="price">$20 per hour (estimated 20 hours per site)</span>
+                    <p>We design a website for your company. This includes at least one design session, where we sit
+                        down with you to figure out what your site needs, both in features and design. After that, we
+                        will begin work on designing and creating your site. Throughout the process, you will get to
+                        see our progress and ensure your site is exceeding your expectations.</p>
+                    <p>We are excited and thankful to be able to serve you and help you reach your customers more
+                        effectively.</p>
                 </div>
             </div>
             <div class="col s10 offset-s1 card" id="reg">
                 <div class="card-content">
                     <span class="card-title">Domain Registration</span>
-                    <p>We handle registering your domain for you</p>
+                    <span class="price">around $2 per mont</span>
+                    <p>We handle registering and setting up your domain for you. The price for this depends on what
+                        domain you would like to purchase, but most sites will be around $1-$2 per month</p>
                 </div>
             </div>
             <div class="col s10 offset-s1 card" id="hosting">
                 <div class="card-content">
                     <span class="card-title">Server Hosting</span>
-                    <p>We host your website so you don't have to find and set up a server yourself!</p>
+                    <span class="price">around $1 per month</span>
+                    <p>We host your website so you don't have to find and set up a server yourself! We over very cheap
+                        hosting for your site, and when you have us host, we can more easily create and update your
+                        site.</p>
                 </div>
             </div>
             <div class="col s10 offset-s1 card" id="maintenance">
                 <div class="card-content">
-                    <span class="card-title">Maintenances</span>
-                    <p>We provide the option to update parts of your site's content every month.</p>
+                    <span class="card-title">Maintenance</span>
+                    <span class="price">$20 per month</span>
+                    <p>We provide the option to update parts of your site's content every month. This allows you to
+                        change content, update the theme and images, and add small amounts of content</p>
                 </div>
             </div>
         </div>

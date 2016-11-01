@@ -55,7 +55,7 @@
 .materialize-red.darken-4 {
   background-color: #8b1014 !important; }
 
-.materialize-red-text.text-darken-4 {
+.materialize-red-text.text-darken-4, .materialize-red-text.price {
   color: #8b1014 !important; }
 
 .red, .deal {
@@ -115,7 +115,7 @@
 .red.darken-4, .darken-4.deal {
   background-color: #B71C1C !important; }
 
-.red-text.text-darken-4 {
+.red-text.text-darken-4, .red-text.price {
   color: #B71C1C !important; }
 
 .red.accent-1, .accent-1.deal {
@@ -199,7 +199,7 @@
 .pink.darken-4 {
   background-color: #880e4f !important; }
 
-.pink-text.text-darken-4 {
+.pink-text.text-darken-4, .pink-text.price {
   color: #880e4f !important; }
 
 .pink.accent-1 {
@@ -283,7 +283,7 @@
 .purple.darken-4 {
   background-color: #4a148c !important; }
 
-.purple-text.text-darken-4 {
+.purple-text.text-darken-4, .purple-text.price {
   color: #4a148c !important; }
 
 .purple.accent-1 {
@@ -367,7 +367,7 @@
 .deep-purple.darken-4 {
   background-color: #311b92 !important; }
 
-.deep-purple-text.text-darken-4 {
+.deep-purple-text.text-darken-4, .deep-purple-text.price {
   color: #311b92 !important; }
 
 .deep-purple.accent-1 {
@@ -397,85 +397,85 @@
 .indigo, .theme-bg, .collapsible-header, footer, footer .footer-copyright {
   background-color: #3f51b5 !important; }
 
-.indigo-text {
+.indigo-text, .price {
   color: #3f51b5 !important; }
 
 .indigo.lighten-5, .lighten-5.theme-bg, .lighten-5.collapsible-header, footer.lighten-5, footer .lighten-5.footer-copyright {
   background-color: #e8eaf6 !important; }
 
-.indigo-text.text-lighten-5 {
+.indigo-text.text-lighten-5, .text-lighten-5.price {
   color: #e8eaf6 !important; }
 
 .indigo.lighten-4, .lighten-4.theme-bg, .lighten-4.collapsible-header, footer.lighten-4, footer .lighten-4.footer-copyright {
   background-color: #c5cae9 !important; }
 
-.indigo-text.text-lighten-4 {
+.indigo-text.text-lighten-4, .text-lighten-4.price {
   color: #c5cae9 !important; }
 
 .indigo.lighten-3, .lighten-3.theme-bg, .lighten-3.collapsible-header, footer.lighten-3, footer .lighten-3.footer-copyright {
   background-color: #9fa8da !important; }
 
-.indigo-text.text-lighten-3 {
+.indigo-text.text-lighten-3, .text-lighten-3.price {
   color: #9fa8da !important; }
 
 .indigo.lighten-2, body.indigo, body.theme-bg, body.collapsible-header, footer body.footer-copyright, .lighten-2.theme-bg, .lighten-2.collapsible-header, footer.lighten-2, footer .lighten-2.footer-copyright {
   background-color: #7986cb !important; }
 
-.indigo-text.text-lighten-2 {
+.indigo-text.text-lighten-2, .text-lighten-2.price {
   color: #7986cb !important; }
 
 .indigo.lighten-1, .lighten-1.theme-bg, .lighten-1.collapsible-header, footer.lighten-1, footer .lighten-1.footer-copyright {
   background-color: #5c6bc0 !important; }
 
-.indigo-text.text-lighten-1 {
+.indigo-text.text-lighten-1, .text-lighten-1.price {
   color: #5c6bc0 !important; }
 
 .indigo.darken-1, .theme-bg, .collapsible-header, footer, footer .footer-copyright, .indigo.deal, footer.deal {
   background-color: #3949ab !important; }
 
-.indigo-text.text-darken-1 {
+.indigo-text.text-darken-1, .text-darken-1.price {
   color: #3949ab !important; }
 
 .indigo.darken-2, .darken-2.theme-bg, .darken-2.collapsible-header, footer.darken-2, footer .footer-copyright {
   background-color: #303f9f !important; }
 
-.indigo-text.text-darken-2 {
+.indigo-text.text-darken-2, .text-darken-2.price {
   color: #303f9f !important; }
 
 .indigo.darken-3, .darken-3.theme-bg, .darken-3.collapsible-header, footer.darken-3, footer .darken-3.footer-copyright {
   background-color: #283593 !important; }
 
-.indigo-text.text-darken-3 {
+.indigo-text.text-darken-3, .text-darken-3.price {
   color: #283593 !important; }
 
 .indigo.darken-4, .darken-4.theme-bg, .darken-4.collapsible-header, footer.darken-4, footer .darken-4.footer-copyright {
   background-color: #1a237e !important; }
 
-.indigo-text.text-darken-4 {
+.indigo-text.text-darken-4, .price {
   color: #1a237e !important; }
 
 .indigo.accent-1, .accent-1.theme-bg, .accent-1.collapsible-header, footer.accent-1, footer .accent-1.footer-copyright {
   background-color: #8c9eff !important; }
 
-.indigo-text.text-accent-1 {
+.indigo-text.text-accent-1, .text-accent-1.price {
   color: #8c9eff !important; }
 
 .indigo.accent-2, .accent-2.theme-bg, .accent-2.collapsible-header, footer.accent-2, footer .accent-2.footer-copyright {
   background-color: #536dfe !important; }
 
-.indigo-text.text-accent-2 {
+.indigo-text.text-accent-2, .text-accent-2.price {
   color: #536dfe !important; }
 
 .indigo.accent-3, .accent-3.theme-bg, .accent-3.collapsible-header, footer.accent-3, footer .accent-3.footer-copyright {
   background-color: #3d5afe !important; }
 
-.indigo-text.text-accent-3 {
+.indigo-text.text-accent-3, .text-accent-3.price {
   color: #3d5afe !important; }
 
 .indigo.accent-4, .accent-4.theme-bg, .accent-4.collapsible-header, footer.accent-4, footer .accent-4.footer-copyright {
   background-color: #304ffe !important; }
 
-.indigo-text.text-accent-4 {
+.indigo-text.text-accent-4, .text-accent-4.price {
   color: #304ffe !important; }
 
 .blue {
@@ -535,7 +535,7 @@
 .blue.darken-4 {
   background-color: #0D47A1 !important; }
 
-.blue-text.text-darken-4 {
+.blue-text.text-darken-4, .blue-text.price {
   color: #0D47A1 !important; }
 
 .blue.accent-1 {
@@ -619,7 +619,7 @@
 .light-blue.darken-4 {
   background-color: #01579b !important; }
 
-.light-blue-text.text-darken-4 {
+.light-blue-text.text-darken-4, .light-blue-text.price {
   color: #01579b !important; }
 
 .light-blue.accent-1 {
@@ -703,7 +703,7 @@
 .cyan.darken-4 {
   background-color: #006064 !important; }
 
-.cyan-text.text-darken-4 {
+.cyan-text.text-darken-4, .cyan-text.price {
   color: #006064 !important; }
 
 .cyan.accent-1 {
@@ -787,7 +787,7 @@
 .teal.darken-4 {
   background-color: #004d40 !important; }
 
-.teal-text.text-darken-4 {
+.teal-text.text-darken-4, .teal-text.price {
   color: #004d40 !important; }
 
 .teal.accent-1 {
@@ -871,7 +871,7 @@
 .green.darken-4 {
   background-color: #1B5E20 !important; }
 
-.green-text.text-darken-4 {
+.green-text.text-darken-4, .green-text.price {
   color: #1B5E20 !important; }
 
 .green.accent-1 {
@@ -955,7 +955,7 @@
 .light-green.darken-4 {
   background-color: #33691e !important; }
 
-.light-green-text.text-darken-4 {
+.light-green-text.text-darken-4, .light-green-text.price {
   color: #33691e !important; }
 
 .light-green.accent-1 {
@@ -1039,7 +1039,7 @@
 .lime.darken-4 {
   background-color: #827717 !important; }
 
-.lime-text.text-darken-4 {
+.lime-text.text-darken-4, .lime-text.price {
   color: #827717 !important; }
 
 .lime.accent-1 {
@@ -1123,7 +1123,7 @@
 .yellow.darken-4 {
   background-color: #f57f17 !important; }
 
-.yellow-text.text-darken-4 {
+.yellow-text.text-darken-4, .yellow-text.price {
   color: #f57f17 !important; }
 
 .yellow.accent-1 {
@@ -1207,7 +1207,7 @@
 .amber.darken-4 {
   background-color: #ff6f00 !important; }
 
-.amber-text.text-darken-4 {
+.amber-text.text-darken-4, .amber-text.price {
   color: #ff6f00 !important; }
 
 .amber.accent-1 {
@@ -1291,7 +1291,7 @@
 .orange.darken-4 {
   background-color: #e65100 !important; }
 
-.orange-text.text-darken-4 {
+.orange-text.text-darken-4, .orange-text.price {
   color: #e65100 !important; }
 
 .orange.accent-1 {
@@ -1375,7 +1375,7 @@
 .deep-orange.darken-4 {
   background-color: #bf360c !important; }
 
-.deep-orange-text.text-darken-4 {
+.deep-orange-text.text-darken-4, .deep-orange-text.price {
   color: #bf360c !important; }
 
 .deep-orange.accent-1 {
@@ -1459,7 +1459,7 @@
 .brown.darken-4 {
   background-color: #3e2723 !important; }
 
-.brown-text.text-darken-4 {
+.brown-text.text-darken-4, .brown-text.price {
   color: #3e2723 !important; }
 
 .blue-grey {
@@ -1519,7 +1519,7 @@
 .blue-grey.darken-4 {
   background-color: #263238 !important; }
 
-.blue-grey-text.text-darken-4 {
+.blue-grey-text.text-darken-4, .blue-grey-text.price {
   color: #263238 !important; }
 
 .grey, body {
@@ -1579,7 +1579,7 @@
 .grey.darken-4, body.darken-4 {
   background-color: #212121 !important; }
 
-.grey-text.text-darken-4 {
+.grey-text.text-darken-4, .grey-text.price {
   color: #212121 !important; }
 
 .black {
@@ -6395,5 +6395,8 @@ main {
   padding: 3px;
   border-radius: 3px;
   border: 1px solid black; }
+
+.price {
+  padding-left: 5px; }
 
 /*# sourceMappingURL=main.css.map */
