@@ -40,7 +40,7 @@
 .materialize-red-text.text-darken-1 {
   color: #d0181e !important; }
 
-.materialize-red.darken-2, footer .materialize-red.footer-copyright {
+.materialize-red.darken-2, .materialize-red.collapsible-header, footer .materialize-red.footer-copyright {
   background-color: #b9151b !important; }
 
 .materialize-red-text.text-darken-2 {
@@ -100,7 +100,7 @@
 .red-text.text-darken-1 {
   color: #E53935 !important; }
 
-.red.darken-2, footer .red.footer-copyright, footer .footer-copyright.deal, .darken-2.deal {
+.red.darken-2, .red.collapsible-header, .collapsible-header.deal, footer .red.footer-copyright, footer .footer-copyright.deal, .darken-2.deal {
   background-color: #D32F2F !important; }
 
 .red-text.text-darken-2 {
@@ -184,7 +184,7 @@
 .pink-text.text-darken-1 {
   color: #d81b60 !important; }
 
-.pink.darken-2, footer .pink.footer-copyright {
+.pink.darken-2, .pink.collapsible-header, footer .pink.footer-copyright {
   background-color: #c2185b !important; }
 
 .pink-text.text-darken-2 {
@@ -268,7 +268,7 @@
 .purple-text.text-darken-1 {
   color: #8e24aa !important; }
 
-.purple.darken-2, footer .purple.footer-copyright {
+.purple.darken-2, .purple.collapsible-header, footer .purple.footer-copyright {
   background-color: #7b1fa2 !important; }
 
 .purple-text.text-darken-2 {
@@ -352,7 +352,7 @@
 .deep-purple-text.text-darken-1 {
   color: #5e35b1 !important; }
 
-.deep-purple.darken-2, footer .deep-purple.footer-copyright {
+.deep-purple.darken-2, .deep-purple.collapsible-header, footer .deep-purple.footer-copyright {
   background-color: #512da8 !important; }
 
 .deep-purple-text.text-darken-2 {
@@ -436,7 +436,7 @@
 .indigo-text.text-darken-1, .text-darken-1.price {
   color: #3949ab !important; }
 
-.indigo.darken-2, .darken-2.theme-bg, .darken-2.collapsible-header, footer.darken-2, footer .footer-copyright {
+.indigo.darken-2, .darken-2.theme-bg, .collapsible-header, footer.darken-2, footer .footer-copyright {
   background-color: #303f9f !important; }
 
 .indigo-text.text-darken-2, .text-darken-2.price {
@@ -520,7 +520,7 @@
 .blue-text.text-darken-1 {
   color: #1E88E5 !important; }
 
-.blue.darken-2, footer .blue.footer-copyright {
+.blue.darken-2, .blue.collapsible-header, footer .blue.footer-copyright {
   background-color: #1976D2 !important; }
 
 .blue-text.text-darken-2 {
@@ -604,7 +604,7 @@
 .light-blue-text.text-darken-1 {
   color: #039be5 !important; }
 
-.light-blue.darken-2, footer .light-blue.footer-copyright {
+.light-blue.darken-2, .light-blue.collapsible-header, footer .light-blue.footer-copyright {
   background-color: #0288d1 !important; }
 
 .light-blue-text.text-darken-2 {
@@ -688,7 +688,7 @@
 .cyan-text.text-darken-1 {
   color: #00acc1 !important; }
 
-.cyan.darken-2, footer .cyan.footer-copyright {
+.cyan.darken-2, .cyan.collapsible-header, footer .cyan.footer-copyright {
   background-color: #0097a7 !important; }
 
 .cyan-text.text-darken-2 {
@@ -772,7 +772,7 @@
 .teal-text.text-darken-1 {
   color: #00897b !important; }
 
-.teal.darken-2, footer .teal.footer-copyright {
+.teal.darken-2, .teal.collapsible-header, footer .teal.footer-copyright {
   background-color: #00796b !important; }
 
 .teal-text.text-darken-2 {
@@ -856,7 +856,7 @@
 .green-text.text-darken-1 {
   color: #43A047 !important; }
 
-.green.darken-2, footer .green.footer-copyright {
+.green.darken-2, .green.collapsible-header, footer .green.footer-copyright {
   background-color: #388E3C !important; }
 
 .green-text.text-darken-2 {
@@ -940,7 +940,7 @@
 .light-green-text.text-darken-1 {
   color: #7cb342 !important; }
 
-.light-green.darken-2, footer .light-green.footer-copyright {
+.light-green.darken-2, .light-green.collapsible-header, footer .light-green.footer-copyright {
   background-color: #689f38 !important; }
 
 .light-green-text.text-darken-2 {
@@ -1024,7 +1024,7 @@
 .lime-text.text-darken-1 {
   color: #c0ca33 !important; }
 
-.lime.darken-2, footer .lime.footer-copyright {
+.lime.darken-2, .lime.collapsible-header, footer .lime.footer-copyright {
   background-color: #afb42b !important; }
 
 .lime-text.text-darken-2 {
@@ -1108,7 +1108,7 @@
 .yellow-text.text-darken-1 {
   color: #fdd835 !important; }
 
-.yellow.darken-2, footer .yellow.footer-copyright {
+.yellow.darken-2, .yellow.collapsible-header, footer .yellow.footer-copyright {
   background-color: #fbc02d !important; }
 
 .yellow-text.text-darken-2 {
@@ -1192,7 +1192,7 @@
 .amber-text.text-darken-1 {
   color: #ffb300 !important; }
 
-.amber.darken-2, footer .amber.footer-copyright {
+.amber.darken-2, .amber.collapsible-header, footer .amber.footer-copyright {
   background-color: #ffa000 !important; }
 
 .amber-text.text-darken-2 {
@@ -1276,7 +1276,7 @@
 .orange-text.text-darken-1 {
   color: #fb8c00 !important; }
 
-.orange.darken-2, footer .orange.footer-copyright {
+.orange.darken-2, .orange.collapsible-header, footer .orange.footer-copyright {
   background-color: #f57c00 !important; }
 
 .orange-text.text-darken-2 {
@@ -1360,7 +1360,7 @@
 .deep-orange-text.text-darken-1 {
   color: #f4511e !important; }
 
-.deep-orange.darken-2, footer .deep-orange.footer-copyright {
+.deep-orange.darken-2, .deep-orange.collapsible-header, footer .deep-orange.footer-copyright {
   background-color: #e64a19 !important; }
 
 .deep-orange-text.text-darken-2 {
@@ -1444,7 +1444,7 @@
 .brown-text.text-darken-1 {
   color: #6d4c41 !important; }
 
-.brown.darken-2, footer .brown.footer-copyright {
+.brown.darken-2, .brown.collapsible-header, footer .brown.footer-copyright {
   background-color: #5d4037 !important; }
 
 .brown-text.text-darken-2 {
@@ -1504,7 +1504,7 @@
 .blue-grey-text.text-darken-1 {
   color: #546e7a !important; }
 
-.blue-grey.darken-2, footer .blue-grey.footer-copyright {
+.blue-grey.darken-2, .blue-grey.collapsible-header, footer .blue-grey.footer-copyright {
   background-color: #455a64 !important; }
 
 .blue-grey-text.text-darken-2 {
@@ -1564,7 +1564,7 @@
 .grey-text.text-darken-1 {
   color: #757575 !important; }
 
-.grey.darken-2, body.darken-2, footer body.footer-copyright, footer .grey.footer-copyright {
+.grey.darken-2, body.darken-2, body.collapsible-header, footer body.footer-copyright, .grey.collapsible-header, footer .grey.footer-copyright {
   background-color: #616161 !important; }
 
 .grey-text.text-darken-2 {
