@@ -136,3 +136,12 @@ footer {
   @extend .indigo-text;
   @extend .text-darken-4;
 }
+
+.tldr {
+  //&:before{
+  //  content: "TL;DR: ";
+  //}
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 3px;
+}

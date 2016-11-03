@@ -2,7 +2,7 @@
 <html>
 <head>
     <?php require_once "includes/header.inc"; ?>
-    <title>NewSite - Custom Websites for Small Businesses</title>
+    <title>Frequently Asked Questions :: NewSite - Custom Websites for Small Businesses</title>
 </head>
 
 <body>
@@ -14,8 +14,10 @@
             <li>
                 <div class="collapsible-header">What distinguishes you from your competition?</div>
                 <div class="collapsible-body">
+                    <span class="tldr">We give you a custom site, made by people not computers.</span><br/>
                     <span>At NewSite, we focus on the personal touch we can give your site.</span><br>
-                    <span>Each site is a custom creation, with lots of thought put into the design. Unlike most of our competition, we do the design work for you and we don't force you to use a template.</span>
+                    <span>Each site is a custom creation, with lots of thought put into the design. Unlike most of our competition, we do the design work for you and we don't force you to use a template.</span><br />
+                    <span>We are a small business, so we know what it takes to effectively run and market a small business. We are here to help you succeed!</span>
                 </div>
             </li>
             <li>
@@ -23,7 +25,8 @@
                         here&gt;</em>?
                 </div>
                 <div class="collapsible-body">
-                    <span>This answer will change depending on how many other customers we have at the moment, but the answer is probably!</span><br>
+                    <span class="tldr">Yes!</span><br/>
+                    <span>We will work with you to prioritize parts of your website and determine what parts we will be able to complete by your deadline. If we don't think we will be able to complete all the parts of your website you deem most important by your deadline, we will tell you so up front and suggest other options to help you meet your deadline.</span><br/>
                     <span>If we have to work overtime to complete your site by a given time, there will be an extra $3/hr charge.  We also can't do the impossible, and we value you, our customer, too much to work round-the-clock and risk making poor design choices that could negatively impact your site.</span>
                 </div>
             </li>
@@ -31,21 +34,32 @@
                 <div class="collapsible-header">I want <em>&lt;insert feature here&gt;</em> on my site. Can you add it?
                 </div>
                 <div class="collapsible-body">
-                    <span>Probably! Some things might not be feasible for a small development company like NewSite to do or might not be possible for websites. Also, do realize that non-standard features might take a lot of time to develop, and we charge for the design and creation of your website by time.</span>
+                    <span class="tldr">Yes!</span><br />
+                    <span>Some features we can do include (but are not limited to):</span>
+                    <ul class="collection" style="margin: 10px 40px;">
+                        <li class="collection-item">Image Slideshows</li>
+                        <li class="collection-item">Social Media Integration</li>
+                        <li class="collection-item">Custom Forms</li>
+                        <li class="collection-item">Product Galleries</li>
+                        <li></li>
+                    </ul>
+                    <span>If we can't do it, we will let you know up front and if possible refer you to another company that can do it.</span><br>
+                    <span>Also, do realize that non-standard features might take a lot of time to develop, and we charge for the design and creation of your website by time.</span>
                 </div>
             </li>
             <li>
                 <div class="collapsible-header">What is covered by the maintenance option?</div>
                 <div class="collapsible-body">
-                    <span>Our maintenance plan covers any small tweaks, changes, or additions to the content or design of your site every month. You have a limited number of change request each month you pay for though, so be careful!</span><br>
+                    <span class="tldr">Small changes and additions</span><br/>
+                    <span>Our maintenance plan covers any small tweaks, changes, or additions to the content or design of your site every month. You have 10 change request each month of the service, which should be more than enough</span><br>
                     <span>If we break something in the process of updating backend software or implementing one of your other changes, the fixes are on us!</span>
                 </div>
             </li>
             <li>
                 <div class="collapsible-header">What guarantees can you provide for site uptime?</div>
                 <div class="collapsible-body">
-                    <span>Unfortunately, we can provide little guarantees for uptime, as your site will be hosted on a shared server. This reduces costs and allows us to more easily update and manage your site, but increases the possibility of problems.</span><br>
-                    <span>If you are very concerned about keeping your site online, we can still design your site and assist you in setting up your site with a different service.</span>
+                    <span class="tldr">Around 99.9% uptime</span><br/>
+                    <span>By using our shared server, you pay much less than normal for your hosting.  However, this means that the uptime of your website depends on the uptime of the shared server. Our current server provider has a 99.9% uptime guarantee, and as such your site will have close to 99.9% uptime, with occasional downtime for software updates. In the event of such a scheduled downtime, all our customers will be notified beforehand.</span>
                 </div>
 
         </ul>

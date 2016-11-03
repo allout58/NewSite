@@ -2,7 +2,7 @@
 <html>
 <head>
     <?php require_once "includes/header.inc"; ?>
-    <title>NewSite - Custom Websites for Small Businesses</title>
+    <title>Contact Us :: NewSite - Custom Websites for Small Businesses</title>
 </head>
 
 <body>

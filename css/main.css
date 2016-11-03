@@ -6399,4 +6399,9 @@ main {
 .price {
   padding-left: 5px; }
 
+.tldr {
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 3px; }
+
 /*# sourceMappingURL=main.css.map */
