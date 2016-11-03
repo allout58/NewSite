@@ -6367,7 +6367,7 @@ main {
     padding: 0;
     margin: 0; }
     .images-text > * .image, .images-text > * .image img {
-      width: 20vw; }
+      width: 24vw; }
     .images-text > * .image .copyright {
       font-size: small;
       color: white;
@@ -6376,17 +6376,13 @@ main {
       bottom: 4px;
       margin: 0; }
   .images-text > * .content {
-    width: 45vw; }
+    width: 30vw; }
   .images-text > *:nth-child(odd) .content {
-    float: right;
-    padding-left: 14vw;
-    padding-right: 6vw; }
+    float: right; }
   .images-text > *:nth-child(odd) .image {
     float: left; }
   .images-text > *:nth-child(even) .content {
-    float: left;
-    padding-right: 14vw;
-    padding-left: 6vw; }
+    float: left; }
   .images-text > *:nth-child(even) .image {
     float: right; }
 

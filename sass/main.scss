@@ -82,7 +82,7 @@ footer {
       padding: 0;
       margin: 0;
       &, img {
-        width: 20vw;
+        width: 24vw;
       }
       .copyright {
         font-size: small;
@@ -94,27 +94,29 @@ footer {
       }
     }
     .content {
-      width: 45vw;
+      width: 30vw;
     }
     &:nth-child(odd) {
       .content {
         float: right;
-        padding-left: 14vw;
-        padding-right: 6vw;
+        //padding-left: 14vw;
+        //padding-right: 6vw;
       }
       .image {
         float: left;
+        //padding-left: 6vw;
         //margin-left: 6vw;
       }
     }
     &:nth-child(even) {
       .content {
         float: left;
-        padding-right: 14vw;
-        padding-left: 6vw;
+        //padding-right: 14vw;
+        //padding-left: 6vw;
       }
       .image {
         float: right;
+        //padding-right:6vw;
         //margin-right: 6vw;
       }
     }
