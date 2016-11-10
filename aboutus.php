@@ -24,6 +24,8 @@
         <div class="center-align">
             <img src="images/james.jpg" class="responsive-img circle" style="max-width: 200px">
         </div>
+        <p>While in school at Clemson University, James worked on the website of <a href="https://career.clemson.edu/" target="_blank">Clemson's Center for Career and Professional Development <i class="material-icons tiny">exit_to_app</i></a>, completely redesigning it from the ground up.</p>
+        <p>Some sites we like the design of include <a href="http://www.clemson.edu/degrees/index.html" target="_blank">Clemson's Degree listing <i class="material-icons tiny">exit_to_app</i></a> and <a href="https://fi.google.com/" target="_blank">Google's Project Fi <i class="material-icons tiny">exit_to_app</i></a></p>
     </div>
 </main>
 <?php
